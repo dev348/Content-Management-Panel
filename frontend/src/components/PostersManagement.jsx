@@ -124,7 +124,7 @@ const PosterManagement = () => {
 
       {filteredPosters.length === 0 ? (
         <Alert variant="info" className="text-center">
-          No posters available. Click the "+" button to add a new poster.
+          No posters available. Click the button to add a new poster.
         </Alert>
       ) : (
         <Row xs={1} md={2} lg={3} className="g-4">
