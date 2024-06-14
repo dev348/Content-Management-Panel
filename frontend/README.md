@@ -1,27 +1,8 @@
-# Assignment Starter (Frontend)
+# React + Vite
 
-## Installing all the packages
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-`npm i`
+Currently, two official plugins are available:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-`npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-## Starting the project
-
-In the project directory, you can navigate to `src/Posts/index.js` file and start the project.
-
-You can create all .js supporting files in the same `Posts` folder
-
-## Adding Assets
-
-You can add any images/fonts in `public` folder.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

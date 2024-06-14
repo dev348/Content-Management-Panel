@@ -1,9 +1,7 @@
-var router = require("express").Router();
+const router = require("express").Router();
 
-router.get('/', async (req, res) => {
-    res.send('Server is online')
-})
+const posterRoute = require("./posterRoute");
 
-router.use("/post", require("./post"));
+router.use("/poster", posterRoute);
 
 module.exports = router;
